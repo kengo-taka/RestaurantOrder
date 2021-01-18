@@ -258,7 +258,7 @@
                                         <rect key="frame" x="0.0" y="69.5" width="384" height="30"/>
                                         <state key="normal" title="Dismissn button"/>
                                         <connections>
-                                            <segue destination="Y0l-xy-E90" kind="unwind" identifier="dismissConfirmation" unwindAction="unwindToOrderListWithSegue:" id="2CV-MX-N1T"/>
+                                            <segue destination="Y0l-xy-E90" kind="unwind" identifier="dismissConfirmation" unwindAction="unwindToOrderList:" id="jFj-tm-dZH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -280,7 +280,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9G-pn-PU7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="Y0l-xy-E90" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1811" y="572"/>
+            <point key="canvasLocation" x="1810.144927536232" y="571.875"/>
         </scene>
         <!--Your order-->
         <scene sceneID="sc5-Sw-oQX">

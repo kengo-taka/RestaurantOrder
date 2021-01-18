@@ -13,11 +13,12 @@ class OrderConfirmationViewController: UIViewController {
     
     @IBOutlet var confirmationLabel: UILabel!
     
-    @IBAction func unwindToOrderList(segue: UIStoryboardSegue) {
-        if segue.identifier == "dismissConfirmation" {
-            MenuController.shared.order.menuItems.removeAll()
-        }
-    }
+//    @IBAction func unwindToOrderList(_ sender: UIStoryboardSegue) {
+//        if sender.identifier == "dismissConfirmation" {
+//            MenuController.shared.order.menuItems.removeAll()
+//        }
+//
+//    }
     init?(coder: NSCoder, minutesToPrepare: Int) {
             self.minutesToPrepare = minutesToPrepare
             super.init(coder: coder)

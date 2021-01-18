@@ -11,6 +11,13 @@ class OrderTableViewController: UITableViewController {
 //    var order = Order()
     var minutesToPrepareOrder = 0
     
+    @IBAction func unwindToOrderList(_ sender: UIStoryboardSegue) {
+        if sender.identifier == "dismissConfirmation" {
+            MenuController.shared.order.menuItems.removeAll()
+        }
+
+    }
+    
     @IBAction func submitTapped(_ sender: Any) {
         let orderTotal =
            MenuController.shared.order.menuItems.reduce(0.0)
